@@ -20,7 +20,7 @@ function handleOS() {
         mainDownloadLink.innerHTML = 'دانلود فایل .APK';
     }
     else if (os.toLowerCase() === 'os x') {
-        mainDownloadImage.src = 'https://bolbolz.github.io/2/mac.svg';
+        mainDownloadImage.src = 'https://bolbolz.github.io/2/android.svg';
         mainDownloadStrong.innerHTML = 'اپلیکیشن مک';
         mainDownloadLink.setAttribute('href', macLink);
         mainDownloadLink.innerHTML = 'به زودی';
